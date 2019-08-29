@@ -1,0 +1,115 @@
+body{
+        background-color: #1c1c1c;
+        
+    }
+
+    .content-body {
+        min-height: 450px !important;
+    }
+
+    .navbar-lateral-color {
+        background-color: #1c1c1c !important;
+
+    }
+
+    .navbar-encabezado-color {
+        background-color: #272727 !important;
+    }
+
+    .footer {
+        padding-left: 0px !important;
+    }
+
+    .footer .copyright {
+        background-color: #272727 !important;
+        color: white;
+    }
+
+    .encabezado-notificacion {
+        background-color: #6b6b6b !important;
+    }
+
+    .cuerpo-notificacion {
+        background-color: #272727 !important;
+    }
+
+    .notification-heading {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #fff !important;
+    }
+    .nav-text{
+        color: white !important;
+        font-size: 1.0rem;
+    }
+
+    .nk-sidebar .metismenu > li:hover > a {
+        background-color: #333 !important;
+    }
+
+    .menu-icon {
+        color: white !important; 
+        font-size: 1.4rem !important;
+        
+        margin-right: 15px;
+    }
+
+    .cuerpo {
+        padding: 0 !important;
+        margin: 0 !important;
+        background-color: #2b2b2b;
+    }
+
+    .elemento-menu {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .elemento-menu:hover{
+        background-color: #000;
+    }
+
+    .elemento-submenu {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        background-color: #4c4b4b;
+
+    }
+
+    .elemento-submenu:hover {
+        background-color: #403f3f;
+    }
+    .ma-le-20 {
+        padding-left: 20px !important;
+    }
+
+    .text-red {
+        color: #fb0000 !important;
+    }
+
+    .gradient-2, .dropdown-mega-menu .ext-link.link-3 a {
+        background-image: linear-gradient(230deg, #f1321d, #f9867a) !important;
+    }
+
+    .nk-sidebar .metismenu > li.active > a {
+        background: #1c1c1c;
+        color: #fafafa;
+    }
+
+    .btn-secondary {
+        color: #ffffff;
+        background-color: #1c1c1c;
+        border-color: #0a0a0d;
+    }
+
+    .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+        background: #3c3c3c;
+        color: #fff;
+        border-color: #000000;
+    }
+
+    .input-search {
+        width: 350px !important;
+    }

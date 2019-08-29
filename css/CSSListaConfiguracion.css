@@ -1,0 +1,169 @@
+.cuerpo {
+	background-color: #2b2b2b;
+}
+
+.imagen-resultado{
+    width: 246px;
+    height: 140px;
+}
+
+.descripcion-resultado {
+    
+}
+.card-video-resultado{
+	padding: 25px 65px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+    margin-top:20px;   
+    background-color: #272727;
+}
+
+.fila-video {
+	justify-content: center;
+}
+
+.titulo-video{
+	color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    font-size: 1.1rem;
+}
+
+.subtitulo-video{
+	padding-left: 15px;
+    font-size: 0.75rem;
+}
+
+.descripcion-video {
+	padding-left: 15px;
+    padding-top: 15px;
+}
+
+.checkbox{
+	padding: 50px 15px 0px 0px;
+}
+
+.lista-videos {
+	margin-top: 25px;
+	margin-bottom: 25px; 
+}
+
+.modificar-lista-header {
+	margin-right: 35px;
+}
+
+.modificar-header {
+	margin-top: 43px;
+    background-color: #272727;
+    color: #fff !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+}
+
+.titulo-header {
+	font-size: 1.40rem;
+}
+
+.input-nombre-lista{
+	color: #fff !important;
+    background-color: #272727;
+    border-color: #fff0;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.input-nombre-lista:focus{
+	color: #ffffff !important;
+    background-color: #403f3f;
+    border-color: #ecebfe00;
+    outline: 0;
+}
+
+.input-nombre-lista:hover{
+	background-color: #403f3f;
+}
+
+.nombre-lista {
+	padding-top: 15px;
+}
+
+
+.btn-modificado {
+    font-family: 'lato';
+    font-size: 0.95rem;
+    background: #e74c3c;
+    border: 0.175em solid #ececec;
+    padding: 0.90em 2.80em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.btn-modificado-lista {
+    background: #49b3f8 !important;
+    padding: 0.70em 0.80em;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.round {
+    border-radius: 24px;
+}
+
+.square {
+    border-radius: 0px;
+}
+
+.btn-foot {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.centrado {
+    float: right !important;
+}
+
+.btn-four {
+    background-position: 25%;
+    background-size: 400%;
+    margin-top: 10px;
+}
+
+.btn-crear-factura {
+    margin-top: -8px !important;
+}
+
+.btn-four:hover {
+    color: #ececec;
+    background-position: 100%;
+}
+
+
+.btn-suscribirse {
+    border-color: #000;
+    color: #fff;
+
+    background-image: linear-gradient(45deg, transparent 50%, #ca3829 50%);
+}
+
+.btn-editar-lista {
+    background-color: #717171 !important;
+    color: #fff;
+    background-image: linear-gradient(45deg, transparent 50%, #505050 50%);
+}
+
+.btn-modificar-lista {
+	margin-top: 0px !important;
+    padding: 0.70em 0.70em !important;
+    border-color: #0000 !important;
+    font-size: 0.75rem;
+    margin-left: 5px;
+}
+
+.btn-eliminar-lista {
+	background-image: linear-gradient(45deg, transparent 50%, #ca2b1a 50%);
+}
