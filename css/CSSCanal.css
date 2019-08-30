@@ -26,7 +26,6 @@
     .contador-suscriptores {
         justify-content:center;
         text-align: center;
-        position: absolute;
         width: 100%;
     }
 
@@ -260,7 +259,7 @@ ul.flip li a div.down div.inn {
 }
 
 .botonSuscribirse {
-    margin-top: 100px;
+    margin-top: 10px;
     justify-content: center;
     text-align: center;
 }
