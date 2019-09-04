@@ -48,7 +48,7 @@
     .titulo-canal .apellido{
         
         font-size: 5.9rem;
-        color: red;
+        color:#cc0000;
         -webkit-text-stroke: 2px black;
     }
 
@@ -82,7 +82,7 @@ ul {
 .flip {
     font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
     user-select: none;
-    color: #888;
+    color: #414141;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
 }
 
@@ -150,7 +150,7 @@ ul.flip li a div.up:after {
   z-index: 5;
     width: 100%;
   height: 3px;
-  background-color: rgba(0,0,0,.4);
+  background-color: #414141;
 }
 
 ul.flip li a div.down {
@@ -185,8 +185,8 @@ ul.flip li a div.down div.inn {
 .btn-modificado {
     font-family: 'lato';
     font-size: 0.95rem;
-    background: #e74c3c;
-    border: 0.175em solid #ececec;
+    background: #cc0000;
+    border: 2px solid #ececec;
     padding: 0.90em 2.80em;
     color: #fff;
     text-transform: uppercase;
@@ -246,12 +246,11 @@ ul.flip li a div.down div.inn {
 }
 
 .btn-editar-lista {
-    background-color: #717171 !important;
+    background-color: #383838 !important;
     border-color: #000;
     color: #fff;
     margin-top: 0px !important;
     padding: 0.70em 0.70em !important;
-    background-image: linear-gradient(45deg, transparent 50%, #505050 50%);
 }
 
 .tbn-eliminar-lista {   
@@ -277,14 +276,14 @@ ul.flip li a div.down div.inn {
     height: auto;
     margin-bottom: 0px;
     box-shadow: 6px 11px 41px -28px #000000;
-    background-color: #272727;
+    background-color: #121212;
     margin-bottom: 50px;
 }
 
 .card-video{
     text-align: left !important;
     color: #fff !important;
-    background-color: #272727;
+    background-color: #292929;
     box-shadow: 6px 11px 41px -28px #000000 !important;
 }
 
@@ -334,7 +333,6 @@ ul.flip li a div.down div.inn {
 
 .btn-crear-lista:hover{
     background-color: #525151 !important;
-    background-image: linear-gradient(45deg, transparent 50%, #403f3f 50%);
 }
 
 .crear-lista {
@@ -349,4 +347,9 @@ ul.flip li a div.down div.inn {
 .descripcion-video-carta {
     font-size: 0.76rem;
     margin-bottom: 0px;
+}
+
+.titulo-lista{
+    ustify-content: center;
+
 }
