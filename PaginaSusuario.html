@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>BlackBOT - Bipper7u7</title>
+    <title>Pagina principal de BlackBot</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <!-- Pignose Calender -->
@@ -15,14 +15,123 @@
     <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
     <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/CSSLayout.css" rel="stylesheet">
     <link href="css/CSSCanal.css" rel="stylesheet">
-
 </head>
 
 <style type="text/css">
-    
+    body{
+        background-color: #121212 !important;
+    }
 
+    .navbar-lateral-color {
+        background-color: #1c1c1c !important;
+
+    }
+    .h2{
+        background: #fafafa !important;
+    }
+
+    .navbar-encabezado-color {
+        background-color: #272727 !important;
+    }
+
+    .footer .copyright {
+        background-color: #272727 !important;
+        color: white;
+    }
+
+    .encabezado-notificacion {
+        background-color: #6b6b6b !important;
+    }
+
+    .cuerpo-notificacion {
+        background-color: #272727 !important;
+    }
+
+    .notification-heading {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #fff !important;
+    }
+    .nav-text{
+        color: white !important;
+        font-size: 1.0rem;
+    }
+
+    .nk-sidebar .metismenu > li:hover > a {
+        background-color: #333 !important;
+    }
+
+    .menu-icon {
+        color: white !important; 
+        font-size: 1.4rem !important;
+        
+        margin-right: 15px;
+    }
+
+    .titulo-video {
+        color: white !important; 
+        font-size: 1.4rem !important;
+    }
+
+    .descripcion-video{
+        margin-top: 10px !important;
+    }
+
+    .cuerpo {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .elemento-menu {
+        margin-top: 5px;
+    }
+    .ma-le-20 {
+        padding-left: 20px !important;
+    }
+
+    .text-red {
+        color: #fb0000 !important;
+    }
+
+    .gradient-2, .dropdown-mega-menu .ext-link.link-3 a {
+        background-image: linear-gradient(230deg, #f1321d, #f9867a) !important;
+    }
+
+    .nk-sidebar .metismenu > li.active > a {
+        background: #1c1c1c;
+        color: #fafafa;
+    }
+
+    .btn-secondary {
+        color: #ffffff;
+        background-color: #1c1c1c;
+        border-color: #0a0a0d;
+    }
+
+    .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+        background: #3c3c3c;
+        color: #fff;
+        border-color: #000000;
+    }
+
+    .input-search {
+        width: 350px !important;
+    }
+
+    .imagen-resultado{
+        width: 246px;
+        height: 140px;
+    }
+
+    .descripcion-resultado {
+        padding-left: 85px !important;
+    }
+    .card-video-resultado{
+        margin-left: 5px;
+        margin-top: 25px;
+    }
 </style>
 
 
@@ -57,7 +166,7 @@
                     <b class="logo-abbr"><i class="fa fa-video-camera text-red"></i> </b>
                     <span class="logo-compact"><i class="fa fa-video-camera"></i></span>
                     <span class="brand-title nav-text">
-                        <i class="fa fa-video-camera menu-icon"></i> BlackBOT
+                        <i class="fa fa-video-camera menu-icon"></i> BlackBot
                     </span>
                 </a>
             </div>
@@ -65,13 +174,82 @@
         <!--**********************************
             Nav header end
         ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header navbar-encabezado-color">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon nav-text"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <div class="input-group icons">
+                        
+                        <input type="search" class="form-control input-search" placeholder="Buscar Videos" aria-label="Search Dashboard">
+                        
+                        <div class="input-group-prepend">
+                            <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons">
+                            <a href="loginBot.html">
+                                <i class="fa fa-user-circle menu-icon"></i>
+                                <span class="nav-text">Acceder</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar navbar-lateral-color">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu navbar-lateral-color" id="menu">
+                    
+                    <li class="elemento-menu">
+                        <a class="" href="javascript:void()" aria-expanded="false">
+                            <i class="fa fa-home menu-icon" style="color:white" ></i><span class="nav-text">Inicio</span>
+                        </a>
+                    </li>
+                        
+                    </li>
+                    <li class="elemento-menu">
+                        <a class="" href="javascript:void()" aria-expanded="false">
+                            <i class="fa fa-book menu-icon"></i><span class="nav-text">Acerca de...</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
         <div class="content-body" >
             <!--Empieza carrucel-->
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="principal" role="tabpanel">
                     <div class="p-t-15">
                         <div class="titulo-lista">
-                            Videos subidos recientemente
+                            Videos Recientes
                         </div>
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false" >
                             <div class="carousel-inner">
@@ -259,7 +437,7 @@
                 <div class="tab-pane fade show active" id="principal2" role="tabpanel">
                     <div class="p-t-15">
                         <div class="titulo-lista">
-                            Los mas vistos
+                            Los más vistos
                         </div>
                         <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel"  data-interval="false" >
                             <div class="carousel-inner">
@@ -446,177 +624,6 @@
             <!-- #/ container carucel -->
         </div>
         <!--**********************************
-            Header start
-        ***********************************-->
-        <div class="header navbar-encabezado-color">    
-            <div class="header-content clearfix">
-                
-                <div class="nav-control">
-                    <div class="hamburger">
-                        <span class="toggle-icon nav-text"><i class="icon-menu"></i></span>
-                    </div>
-                </div>
-                <div class="header-left">
-                    <div class="input-group icons">
-                        
-                        <input type="search" class="form-control input-search" placeholder="Buscar Videos" aria-label="Search Dashboard">
-                        
-                        <div class="input-group-prepend">
-                            <button class="btn btn-secondary" type="button">
-                            <i class="fa fa-search"></i>
-                          </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-right">
-                    <ul class="clearfix">
-                        <li class="icons dropdown">
-                            <a href="javascript:void(0)" data-toggle="dropdown">
-                                <i class="fa fa-bell menu-icon"></i>
-                                <span class="badge badge-pill gradient-2">3</span>
-                            </a>
-                            <div class="drop-down animated fadeIn dropdown-menu dropdown-notfication encabezado-notificacion">
-                                <div class="dropdown-content-heading d-flex justify-content-between encabezado-notificacion">
-                                    <span class="nav-text">2 New Notifications</span>  
-                                    <a href="javascript:void()" class="d-inline-block">
-                                        <span class="badge badge-pill gradient-2">5</span>
-                                    </a>
-                                </div>
-                                <div class="dropdown-content-body">
-                                    <ul class="cuerpo-notificacion">
-                                        <li>
-                                            <a href="javascript:void()">
-                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
-                                                <div class="notification-content">
-                                                    <h6 class="notification-heading">Events near you</h6>
-                                                    <span class="notification-text">Within next 5 days</span> 
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void()">
-                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
-                                                <div class="notification-content">
-                                                    <h6 class="notification-heading">Event Started</h6>
-                                                    <span class="notification-text">One hour ago</span> 
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void()">
-                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-present"></i></span>
-                                                <div class="notification-content">
-                                                    <h6 class="notification-heading">Event Ended Successfully</h6>
-                                                    <span class="notification-text">One hour ago</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void()">
-                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-present"></i></span>
-                                                <div class="notification-content">
-                                                    <h6 class="notification-heading">Events to Join</h6>
-                                                    <span class="notification-text">After two days</span> 
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    
-                                </div>
-                            </div>
-                        </li>
-                        <li class="icons dropdown">
-                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
-                                <span class="activity active"></span>
-                                <img src="images/user/1.png" height="40" width="40" alt="">
-                            </div>
-                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
-                                <div class="dropdown-content-body">
-                                    <ul>
-                                        <li>
-                                            <a href="app-profile.html"><i class="icon-user"></i> <span>Profile</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void()">
-                                                <i class="icon-envelope-open"></i> <span>Inbox</span> <div class="badge gradient-3 badge-pill gradient-1">3</div>
-                                            </a>
-                                        </li>
-                                        
-                                        <hr class="my-2">
-                                        <li>
-                                            <a href="page-lock.html"><i class="icon-lock"></i> <span>Lock Screen</span></a>
-                                        </li>
-                                        <li><a href="page-login.html"><i class="icon-key"></i> <span>Logout</span></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--**********************************
-            Header end ti-comment-alt
-        ***********************************-->
-
-        <!--**********************************
-            Sidebar start
-        ***********************************-->
-        <div class="nk-sidebar navbar-lateral-color">           
-            <div class="nk-nav-scroll">
-                <ul class="navbar-lateral-color" id="menu">
-                    
-                    <li class="elemento-menu" data-toggle="tooltip" data-placement="right" title="Menú Inicio">
-                        <a class="" href="javascript:void()" aria-expanded="false">
-                            <i class="fa fa-home menu-icon" style="color:white" ></i><span class="nav-text">Inicio</span>
-                        </a>
-                    </li>
-                  
-                    <li class="elemento-menu" data-toggle="tooltip" data-placement="right" title="Suscripciones">
-                        <a class="" href="javascript:void()" aria-expanded="false">
-                            <i class="fa fa-users menu-icon"></i><span class="nav-text">Todos los Canales</span>
-                        </a>
-                    </li>
-                    <li class="elemento-menu">
-                        <a data-toggle="collapse" href="#collapseConfiguracion" role="button" aria-expanded="false" aria-controls="collapseConfiguracion">
-                            <i class="fa fa-cog menu-icon"></i><span class="nav-text">Ajustes</span>
-                        </a>
-                    </li>
-                    <div class="collapse" id="collapseConfiguracion">
-                        <li class="elemento-submenu" data-toggle="tooltip" data-placement="right" title="Ajustes Usuario">
-                            <a href="javascript:void()" aria-expanded="false" >
-                                <i class="fa fa-cog menu-icon" ></i><span class="nav-text">Ajustes Usuario</span>
-                            </a>
-                        </li>
-                        <li class="elemento-submenu" data-toggle="tooltip" data-placement="right" title="Ajustes Canal">
-                            <a href="javascript:void()" aria-expanded="false">
-                                <i class="fa fa-cog menu-icon" ></i><span class="nav-text">Ajustes Canal</span>
-                            </a>
-                        </li>
-                    </div>
-                    <li class="elemento-menu" data-toggle="tooltip" data-placement="right" title="Acerca De">
-                        <a class="" href="javascript:void()" aria-expanded="false">
-                            <i class="fa fa-book menu-icon"></i><span class="nav-text">Acerca de...</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--**********************************
-            Sidebar end
-        ***********************************-->
-
-        <!--**********************************
-            Content body start
-        ***********************************-->
-        <div class="content-body">
-
-            <div class="container-fluid cuerpo">
-               
-            </div>
-            <!-- #/ container -->
-        </div>
-        <!--**********************************
             Content body end
         ***********************************-->
         
@@ -667,8 +674,6 @@
 
 
     <script src="./js/dashboard/dashboard-1.js"></script>
-
-    <script type="text/javascript" src="./js/JSLayout.js"></script>
 
 </body>
 

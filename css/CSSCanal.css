@@ -1,6 +1,6 @@
 
     .header-image-canal{
-        background-image: url('../ejemplo.jpg');
+        background-image: url('../');
         background-size: cover !important;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
@@ -11,6 +11,10 @@
     }
 
     .titulo-canal{
+        padding-top: 150px;
+        text-align: center;
+    }
+    .Descripcion-tblvid{
         padding-top: 150px;
         text-align: center;
     }
@@ -345,8 +349,4 @@ ul.flip li a div.down div.inn {
 .descripcion-video-carta {
     font-size: 0.76rem;
     margin-bottom: 0px;
-}
-
-.titulo-lista{
-    ustify-content: center;
 }

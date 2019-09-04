@@ -100,7 +100,7 @@
 }
 
 .encabezado{
-    background-image: url('../ejemplo.jpg');
+    background-image: url('../');
     background-size: cover !important;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
