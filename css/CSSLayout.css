@@ -113,3 +113,7 @@ body{
     .input-search {
         width: 350px !important;
     }
+
+    .input-search:focus{
+        width: 550px !important;
+    }
