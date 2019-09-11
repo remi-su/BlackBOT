@@ -185,11 +185,17 @@ ul.flip li a div.down div.inn {
 .btn-modificado {
     font-family: 'lato';
     font-size: 0.95rem;
+<<<<<<< HEAD
+    background: #e74c3c;
+    /*border: 0.175em solid #ececec;*/
+=======
    
    
     background: #cc0000;
     border: 2px solid #ececec;
+>>>>>>> 66fba846a2a18679764a7e581d1187d94c9a50a8
     padding: 0.90em 2.80em;
+    background: #cc0000;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -361,6 +367,10 @@ ul.flip li a div.down div.inn {
 
     
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 66fba846a2a18679764a7e581d1187d94c9a50a8
 textarea{
     background-color: transparent;
 border-top-width: initial;
