@@ -74,6 +74,19 @@
     -webkit-text-stroke: 2px black;
 }
 
+.input-nombre {
+    
+    width: 404px;
+    height: 104px;
+    font-size: 58px;
+    background-color: #0000;
+    border-color: #fff0;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+
+}
+
+
 .textArea-canal {
 	color: white !important;
     border-color: rgba(0, 0, 0, 0);
@@ -99,7 +112,7 @@
 }
 
 .encabezado{
-    background-image: url('../');
+    background-image: url('../ejemplo2.jpg');
     background-size: cover !important;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
