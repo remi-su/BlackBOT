@@ -181,8 +181,8 @@ ul.flip li a div.down div.inn {
 .btn-modificado {
     font-family: 'lato';
     font-size: 0.95rem;
-    background: #e74c3c;
-    border: 0.175em solid #ececec;
+   
+   
     padding: 0.90em 2.80em;
     color: #fff;
     text-transform: uppercase;
@@ -235,7 +235,7 @@ ul.flip li a div.down div.inn {
 
 
 .btn-suscribirse {
-    border-color: #000;
+    
     color: #fff;
 
     background-image: linear-gradient(45deg, transparent 50%, #ca3829 50%);
@@ -297,6 +297,11 @@ ul.flip li a div.down div.inn {
     text-align: center;
 }
 
+.card-body {
+    
+    background-color: #292929 !important;
+}
+
 .titulo-lista {
     justify-content: center;
     color: #fff !important;
@@ -350,4 +355,28 @@ ul.flip li a div.down div.inn {
 .titulo-lista{
     ustify-content: center;
 
+    
+}
+textarea{
+    background-color: transparent;
+border-top-width: initial;
+border-right-width: initial;
+border-left-width: initial;
+border-top-color: initial;
+border-right-color: initial;
+border-left-color: initial;
+height: 3rem;
+width: 100%;
+font-size: 16px;
+box-shadow: none;
+box-sizing: content-box;
+border-style: none none solid;
+border-image: initial;
+border-bottom: 1px solid rgb(158, 158, 158);
+border-radius: 0px;
+outline: none;
+margin: 0px 0px 8px;
+padding: 0px;
+transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
+color: #fff;
 }

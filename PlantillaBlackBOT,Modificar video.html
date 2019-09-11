@@ -18,7 +18,86 @@
     <link href="css/CSSLayout.css" rel="stylesheet">
     <link href="css/CSSCanal.css" rel="stylesheet">
     <style>
-   
+   input {
+    background-color: transparent;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: none;
+    box-sizing: content-box;
+    border-style: none none solid;
+    border-image: initial;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    border-radius: 0px;
+    outline: none;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
+    color: #fff;
+    }
+    form>div {
+        line-height:2.5em;
+    }
+ 
+    form span {
+        color: #fff;
+        width:70px;
+        display:inline-block;
+        text-align: left !important;
+       
+    }
+
+    select{
+        position: relative;
+    cursor: pointer;
+    background-color: #292929;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    outline: none;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    color: #fff;
+    }
+    textarea{
+        background-color: transparent;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: none;
+    box-sizing: content-box;
+    border-style: none none solid;
+    border-image: initial;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    border-radius: 0px;
+    outline: none;
+    margin: 0px 0px 8px;
+    padding: 0px;
+    transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
+    color: #fff;
+}
+    
     </style>
 
 </head>
@@ -28,6 +107,7 @@
 
 </style>
 
+<button ></button>
 
 <body>
 
@@ -246,6 +326,7 @@
             Content body start
         ***********************************-->
         <div class="content-body">
+            <form >
                 <div class="col-8">
                 
                         <div class="card-decks text-white bg-dark ">
@@ -255,26 +336,35 @@
                                       <h3 class="text-white">Modificar</h3>
                                         <div class="text-center">
                                                 <img src="images/imgs/modificarvideo.png" class="rounded" width="40%">
-                                              </div>
+                                        </div>
+
                                           <br>
-                                         <div class="input-group mb-3">
-                                                <div class="input-group-prepend">
-                                                  <span class="input-group-text text-white bg-dark" id="basic-addon3">título</span>
+                                          <div class="row">
+                                          <div class="col">
+
+                                         <div >
+                                             
+                                                <div >
+                                                  <span  id="basic-addon3">título</span>
                                                 </div>
-                                                <input type="text" class="form-control text-white" id="basic-url" aria-describedby="basic-addon3" value="convenciones C#" style="background-color: #5f5f5f;">
+                                                <input type="text"  id="basic-url" aria-describedby="basic-addon3" value="convenciones C#" >
                                         </div>
-                                         <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                  <span class="input-group-text text-white bg-dark">Descripción</span>
+                                        
+                                         <div >
+                                                <div >
+                                                  <span">Descripción</span>
                                                 </div>
-                                                <textarea class="form-control text-white" aria-label="With textarea" style="background-color: #5f5f5f;">Aprender a trabajar con convenciones en C# y Visual studio</textarea>
+                                                <textarea  aria-label="With textarea" >Aprender a trabajar con convenciones en C# y Visual studio</textarea>
                                         </div>
-                                        <br>
-                                        <div class="input-group mb-3">
-                                                <div class="input-group-prepend text-white">
-                                                  <label class="input-group-text text-white bg-dark" for="inputGroupSelect01">Categoria</label>
+                                         </div>
+                                       
+                                        <div class="col">
+
+                                        <div >
+                                                <div">
+                                                  <span>Categoria</span>
                                                 </div>
-                                                <select class="custom-select text-white" id="inputGroupSelect01" style="background-color: #5f5f5f;" >
+                                                <select  id="inputGroupSelect01" >
                                                   <option selected >Educación</option>
                                                   <option value="1">Comedia</option>
                                                   <option value="2">Terror</option>
@@ -284,18 +374,27 @@
                                                   <option value="6">Educación</option>
 
                                                 </select>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                                <div class="input-group-prepend ">
-                                                  <span class="input-group-text text-white bg-dark" id="basic-addon3">Etiqueta</span>
-                                                </div>
-                                                <input type="text" class="form-control text-white " id="basic-url" aria-describedby="basic-addon3" value="C#,Visual studio,Programación" style="background-color: #5f5f5f;">
-                                        </div>
-                                        <div class="d-flex flex-row-reverse">
+
+                                                <div >
+                                                        <span  id="basic-addon3" >Etiqueta</span><br>
+                                                        
+                                                        <input type="text"  value="C#,Visual studio,Programación" >
+                                                 </div>
+                                                 <div class="d-flex flex-row-reverse">
                                   
-                                                <button class="btn btn-danger">Cancelar</button>&nbsp&nbsp&nbsp
-                                                <button class="btn btn-secondary">Guardar</button>
-                                         </div>
+                                                        <button class="btn btn-danger">Cancelar</button>&nbsp&nbsp&nbsp
+                                                        <button class="btn " style="background: #383838;color: white;box-shadow: 2px 2px #000000;"">Guardar</button>
+                                                 </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                       
+                                                
+                                                
+                                    
+                                        
+
+                                         
 
                                          
                                   </div>
@@ -310,6 +409,7 @@
                             
                         
                     </div>
+                </form>
                     
                            
         </div>
