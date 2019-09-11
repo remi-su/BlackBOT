@@ -182,8 +182,9 @@ ul.flip li a div.down div.inn {
     font-family: 'lato';
     font-size: 0.95rem;
     background: #e74c3c;
-    border: 0.175em solid #ececec;
+    /*border: 0.175em solid #ececec;*/
     padding: 0.90em 2.80em;
+    background: #cc0000;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -350,4 +351,28 @@ ul.flip li a div.down div.inn {
 .titulo-lista{
     ustify-content: center;
 
+}
+
+textarea{
+    background-color: transparent;
+border-top-width: initial;
+border-right-width: initial;
+border-left-width: initial;
+border-top-color: initial;
+border-right-color: initial;
+border-left-color: initial;
+height: 3rem;
+width: 100%;
+font-size: 16px;
+box-shadow: none;
+box-sizing: content-box;
+border-style: none none solid;
+border-image: initial;
+border-bottom: 1px solid rgb(158, 158, 158);
+border-radius: 0px;
+outline: none;
+margin: 0px 0px 8px;
+padding: 0px;
+transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s, -webkit-box-shadow 0.3s ease 0s;
+color: #fff;
 }
