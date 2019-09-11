@@ -1,6 +1,6 @@
 body{
-        background-color: #1c1c1c;
-        
+        background-color: #121212;
+        color: #909090;
     }
 
     .content-body {
@@ -58,7 +58,7 @@ body{
     .cuerpo {
         padding: 0 !important;
         margin: 0 !important;
-        background-color: #2b2b2b;
+        background-color: #121212;
     }
 
     .elemento-menu {
@@ -100,16 +100,20 @@ body{
 
     .btn-secondary {
         color: #ffffff;
-        background-color: #1c1c1c;
+        background-color: #383838;
         border-color: #0a0a0d;
     }
 
     .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-        background: #3c3c3c;
+        background: #383838;
         color: #fff;
         border-color: #000000;
     }
 
     .input-search {
         width: 350px !important;
+    }
+
+    .input-search:focus{
+        width: 550px !important;
     }

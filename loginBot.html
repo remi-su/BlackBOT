@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inicio de sesión</title>
+    <link href="css/stylelog.css" rel="stylesheet">
+    <link href="css/animacion.css" rel="stylesheet">
+</head>
+
+<body>    
+<section class="user">
+        <div class="user_options-container">
+          <div class="user_options-text">
+            <div class="user_options-unregistered">
+              <h2 class="user_unregistered-title">¿No tienes una cuenta?</h2>
+              <p class="user_unregistered-text">Esta es una aplicación gratuita y para todo el público en generar, Registrate con nosotros y disfruta de una nueva experiencia con nuestros videos</p>
+              <button class="user_unregistered-signup" id="signup-button">Regístrate</button>
+            </div>
+      
+            <div class="user_options-registered">
+              <h2 class="user_registered-title">¿Tienes una cuenta?</h2>
+              <p class="user_registered-text">Bienvenido nuevamente, Disfrute de todo el contenido de nuestra aplicación</p>
+              <button class="user_registered-login" id="login-button">Iniciar Sesión</button>
+              
+            </div>
+          </div>
+          
+          <div class="user_options-forms pagina-principal contenedor-margin" id="user_options-forms">
+            <div class="user_forms-login">
+                 <h2 class="forms_title texto-margen">Iniciar Sesión</h2>
+              <form class="forms_form">
+                <fieldset class="forms_fieldset">
+                  <div class="forms_field">
+                    <input type="email" placeholder="Correo Electrónico" class="forms_field-input" required autofocus />
+                  </div>
+                  <div class="forms_field">
+                    <input type="password" placeholder="Contraseña" class="forms_field-input" required />
+                  </div>
+                </fieldset>
+                <div class="forms_buttons">
+                    <!--<button type="button" class="forms_buttons-forgot">Forgot password?</button>-->
+              </form>
+                  <input type="submit" value="Iniciar" class="forms_buttons-action">
+                  <button class="loginBtn loginBtn--google">+Google</button>
+                </div>
+            </div>
+            <div class="user_forms-signup ">
+              <h2 class="forms_title texto-margen">Regístrate</h2>
+              <form class="forms_form">
+                <fieldset class="forms_fieldset">
+                  <div class="forms_field">
+                    <input type="text" placeholder="Nombre Completo" class="forms_field-input" required />
+                  </div>
+
+                  <div class="forms_field">
+                        <input type="text" placeholder="Apellidos" class="forms_field-input" required />
+                      </div>
+                  <div class="forms_field">
+                    <input type="email" placeholder="Correo Electrónico" class="forms_field-input" required />
+                  </div>
+                  <div class="forms_field">
+                    <input type="password" placeholder="Contraseña" class="forms_field-input" required />
+                  </div>
+                </fieldset>
+                <div class="forms_buttons btn-registrar">
+                  <input type="submit" value="Regístrate" class="forms_buttons-action">
+                  <button class="loginBtn loginBtn--google">+Google</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+</body>
+<script src="js/login.js"></script>
+<script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/EasePack.min.js"></script>
+<script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/rAF.js"></script>
+<script src="https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/js/TweenLite.min.js"></script>
+<script src="js/animacion.js"></script>
+</html>

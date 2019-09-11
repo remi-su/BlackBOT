@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pagina principal de BlackBot</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/CSSCanal.css" rel="stylesheet">
+</head>
+
+<style type="text/css">
+    body{
+        background-color: #121212 !important;
+    }
+
+    .navbar-lateral-color {
+        background-color: #1c1c1c !important;
+
+    }
+    .h2{
+        background: #fafafa !important;
+    }
+
+    .navbar-encabezado-color {
+        background-color: #272727 !important;
+    }
+
+    .footer .copyright {
+        background-color: #272727 !important;
+        color: white;
+    }
+
+    .encabezado-notificacion {
+        background-color: #6b6b6b !important;
+    }
+
+    .cuerpo-notificacion {
+        background-color: #272727 !important;
+    }
+
+    .notification-heading {
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.25;
+        color: #fff !important;
+    }
+    .nav-text{
+        color: white !important;
+        font-size: 1.0rem;
+    }
+
+    .nk-sidebar .metismenu > li:hover > a {
+        background-color: #333 !important;
+    }
+
+    .menu-icon {
+        color: white !important; 
+        font-size: 1.4rem !important;
+        
+        margin-right: 15px;
+    }
+
+    .titulo-video {
+        color: white !important; 
+        font-size: 1.4rem !important;
+    }
+
+    .descripcion-video{
+        margin-top: 10px !important;
+    }
+
+    .cuerpo {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .elemento-menu {
+        margin-top: 5px;
+    }
+    .ma-le-20 {
+        padding-left: 20px !important;
+    }
+
+    .text-red {
+        color: #fb0000 !important;
+    }
+
+    .gradient-2, .dropdown-mega-menu .ext-link.link-3 a {
+        background-image: linear-gradient(230deg, #f1321d, #f9867a) !important;
+    }
+
+    .nk-sidebar .metismenu > li.active > a {
+        background: #1c1c1c;
+        color: #fafafa;
+    }
+
+    .btn-secondary {
+        color: #ffffff;
+        background-color: #1c1c1c;
+        border-color: #0a0a0d;
+    }
+
+    .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+        background: #3c3c3c;
+        color: #fff;
+        border-color: #000000;
+    }
+
+    .input-search {
+        width: 350px !important;
+    }
+
+    .imagen-resultado{
+        width: 246px;
+        height: 140px;
+    }
+
+    .descripcion-resultado {
+        padding-left: 85px !important;
+    }
+    .card-video-resultado{
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+</style>
+
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header navbar-encabezado-color">
+            <div class="brand-logo">
+                <a href="Canal.html" class="ma-le-20">
+                    <b class="logo-abbr"><i class="fa fa-video-camera text-red"></i> </b>
+                    <span class="logo-compact"><i class="fa fa-video-camera"></i></span>
+                    <span class="brand-title nav-text">
+                        <i class="fa fa-video-camera menu-icon"></i> BlackBot
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header navbar-encabezado-color">    
+            <div class="header-content clearfix">
+                
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon nav-text"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                    <div class="input-group icons">
+                        
+                        <input type="search" class="form-control input-search" placeholder="Buscar Videos" aria-label="Search Dashboard">
+                        
+                        <div class="input-group-prepend">
+                            <button class="btn btn-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons">
+                            <a href="loginBot.html">
+                                <i class="fa fa-user-circle menu-icon"></i>
+                                <span class="nav-text">Acceder</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar navbar-lateral-color">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu navbar-lateral-color" id="menu">
+                    
+                    <li class="elemento-menu">
+                        <a class="" href="javascript:void()" aria-expanded="false">
+                            <i class="fa fa-home menu-icon" style="color:white" ></i><span class="nav-text">Inicio</span>
+                        </a>
+                    </li>
+                        
+                    </li>
+                    <li class="elemento-menu">
+                        <a class="" href="javascript:void()" aria-expanded="false">
+                            <i class="fa fa-book menu-icon"></i><span class="nav-text">Acerca de...</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body" >
+            <!--Empieza carrucel-->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="principal" role="tabpanel">
+                    <div class="p-t-15">
+                        <div class="titulo-lista">
+                            Videos Recientes
+                        </div>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="false" >
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Segundo carucel-->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="principal2" role="tabpanel">
+                    <div class="p-t-15">
+                        <div class="titulo-lista">
+                            Los más vistos
+                        </div>
+                        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel"  data-interval="false" >
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row listaReproduccion">
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img1.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img2.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img3.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                        <div class="col-md-2">
+                                            <div class="card card-video">
+                                                <img class="img-fluid" src="images/big/img4.jpg" alt="">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Naturaleza en llamas [HD]</h5>
+                                                    <p class="">Bipper7u7. <br>40,000 vistas.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Col -->
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button2" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls2" role="button2" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- #/ container carucel -->
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Diseñado & Desarrollador por <a href="https://themeforest.net/user/quixlab">BlackTube</a> 2019</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+    <!-- Chartjs -->
+    <script src="./plugins/chart.js/Chart.bundle.min.js"></script>
+    <!-- Circle progress -->
+    <script src="./plugins/circle-progress/circle-progress.min.js"></script>
+    <!-- Datamap -->
+    <script src="./plugins/d3v3/index.js"></script>
+    <script src="./plugins/topojson/topojson.min.js"></script>
+    <script src="./plugins/datamaps/datamaps.world.min.js"></script>
+    <!-- Morrisjs -->
+    <script src="./plugins/raphael/raphael.min.js"></script>
+    <script src="./plugins/morris/morris.min.js"></script>
+    <!-- Pignose Calender -->
+    <script src="./plugins/moment/moment.min.js"></script>
+    <script src="./plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <!-- ChartistJS -->
+    <script src="./plugins/chartist/js/chartist.min.js"></script>
+    <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+    <script src="./js/dashboard/dashboard-1.js"></script>
+
+</body>
+
+</html>
